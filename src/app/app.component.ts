@@ -9,3 +9,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'mireceta-web';
 }
+let fallo
+//let arr: Array<String> 
