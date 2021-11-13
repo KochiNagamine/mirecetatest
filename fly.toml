@@ -1,0 +1,17 @@
+app = "mireceta"
+
+[env]
+  #No funciona en angular, setear el enviroment.ts
+  BASE_URL = "https://secretitoback.fly.dev" 
+
+[[services]]
+  internal_port = 80
+  
+  [[services.ports]]
+    handlers = ["http"]
+    port = "80"
+
+  [[services.ports]]
+    handlers = ["tls", "http"]
+    port = "443"
+	

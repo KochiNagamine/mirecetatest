@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+    angular:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        container_name: angular-mireceta
+        ports:
+          - "80:80"
